@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+body{
+    background: rgb(243, 245, 245);
+    
+}
+
+.cardum{
+    display: flex;
+    color: rgb(73, 71, 71);
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+.cardsub{
+    
+    font-family: "JetBrains Mono";
+    margin: 10px;   
+}
+
+.cardouthers{
+    margin-top: 3px;
+    margin-left: 3px;
+}
