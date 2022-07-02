@@ -9,6 +9,7 @@ h1{
 }
 
 .cardum{
+    background-color: azure;
     display: flex;
     color: rgb(73, 71, 71);
     width: 400px;
@@ -16,8 +17,6 @@ h1{
     border: 2px solid black;
     border-radius: 10px;
 }
-
-
 
 .cardsub{
     
@@ -27,4 +26,16 @@ h1{
 
 .cardouthers{
     margin-top: 3px;
+}
+
+header{
+    font-style: bold;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(34, 21, 71, 0.918);
+    color: rgb(231, 231, 231);
+    font-size: 40px;
+    font-family: "JetBrains Mono";
+    margin-bottom: 20px;
+    margin-top: 10px;    
 }
