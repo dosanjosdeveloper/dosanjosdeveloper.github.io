@@ -1,29 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Orbitron:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    background-image: linear-gradient(to right, rgb(56, 58, 59), rgb(141, 148, 151));
     margin: 0px 0px 0px 0px;
 }
 
-h1{
-    font-family: "JetBrains Mono";
-    color: rgb(73, 71, 71);
+
+.hard_skills{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.data_contact{
+    font-size:40px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
 }
 
 .cardum{
-    font-weight: bold; 
-    background-color: rgba(0, 0, 0, 0.8); 
-    color:white;
-    border: none;
+    padding: 20px 30px;
+    background-color: whitesmoke; 
+    color:black;
+    border: 1px solid grey;
     border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: 9px 8px 10px rgba(252, 215, 8, 0.986);
+    box-shadow: 9px 8px 10px rgba(8, 142, 252, 0.808);
 }
 
-.cardsub{
-    padding: 25px;
+.cardsub_socialmedia{
+    
     font-family: "JetBrains Mono";
 }
 
@@ -36,10 +51,14 @@ header{
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    background-color: rgba(34, 21, 71, 0.918);
+    background-color: rgba(29, 29, 31, 0.918);
     color: rgb(231, 231, 231);
     font-size: 40px;
-    font-family: "JetBrains Mono";
     margin-bottom: 20px;
+
+
+    font-family: "Orbitron";
+  
+    font-optical-sizing: auto;
        
 }

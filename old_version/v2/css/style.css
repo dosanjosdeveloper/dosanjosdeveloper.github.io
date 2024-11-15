@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+body{
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    margin: 0px 0px 0px 0px;
+}
+
+h1{
+    font-family: "JetBrains Mono";
+    color: rgb(73, 71, 71);
+}
+
+.cardum{
+    font-weight: bold; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color:white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 9px 8px 10px rgba(252, 215, 8, 0.986);
+}
+
+.cardsub{
+    padding: 25px;
+    font-family: "JetBrains Mono";
+}
+
+.cardouthers{
+    margin-top: 3px;
+}
+
+header{
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(34, 21, 71, 0.918);
+    color: rgb(231, 231, 231);
+    font-size: 40px;
+    font-family: "JetBrains Mono";
+    margin-bottom: 20px;
+       
+}
